@@ -9,12 +9,15 @@ store https://szot-brewpub.jumpseller.com/ ig https://www.instagram.com/cervezas
 
 It's a good platform but is missing some native functionality, but easily built hanging off of their API. 
 
+
+All resources are in the SZOT JumpSeller folder:
+
 The bat files are used to change a couple parameters (cd) and run each powershell script. 
-The choice of these languages was such that my dad wouldn't have to worry installing anything new on his PCs, plus I was 12000kms away and 6hrs ahead at the moment and didn't want to do much tech support lol by phone.
-Also JS wasn't an option due to the browser not allowing put requests to the JumpSeller API, was just easier in ps.
+The choice of these languages was such that my dad wouldn't have to worry installing anything new on his PCs (sorry Python), plus I was 12000kms away and 6hrs ahead at the moment and didn't want to do much tech support by phone lol.
+JS wasn't a great option either due to the browser not allowing put requests to the JumpSeller API... was just easier in ps.
 
-GetNewOrders.bat gets new orders that have been paid but not yet processed, parses the json response and returns a user friendly txt with contact info and which products to pack.
+GetNewOrders.bat gets new orders that have been paid but not yet processed, parses the json response and returns a user friendly txt with contact info and which products to pack (NewOrders.txt).
 
-ChangeStatusToDelivered.bat changes the status of all orders that have been Paid but not delivered, in a given range (input by user).
+ChangeStatusToDelivered.bat changes the status of all orders in a given range (input by user) that have been Paid but not delivered, to delivered.
 
 Future considerations are interacting directly with the Thermal Receipt printers already in use for the restaurant.
