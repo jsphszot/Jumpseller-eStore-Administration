@@ -7,7 +7,7 @@ They run a family owned Brewpub/Brewery in Talagante, close to Santiago de Chile
 
 store https://szot-brewpub.jumpseller.com/ ig https://www.instagram.com/cervezaszot/
 
-It's a good platform but is missing some native functionality, but easily built hanging off of their API. 
+It's a good platform but is missing some native functionality, though easily built hanging off of their API. 
 
 
 All resources are in the SZOT JumpSeller folder:
