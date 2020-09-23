@@ -21,6 +21,6 @@ AdminGUI.ps1 opens up a UI while hiding the powershell console:
 All resources are in the SZOT JumpSeller folder:
 
 The choice of these languages was such that my dad wouldn't have to worry installing anything new on his PCs (sorry Python), plus I was 12000kms away and 6hrs ahead at the moment and didn't want to do much tech support by phone lol.
-JS wasn't a great option either due to the browser not allowing put requests to the JumpSeller API... was just easier in ps.
+JS wasn't a great option either due to the browser not allowing put requests to the JumpSeller API... was just easier in powershell.
 
 Future considerations are interacting directly with the Thermal Receipt printers already in use for the restaurant.
