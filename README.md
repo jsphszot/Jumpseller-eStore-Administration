@@ -1,6 +1,6 @@
 # Jumpseller-eStore-Administration
 
-Just a couple of powershell scripts, bat files for execution, and some parameters in txt.
+Powershell script, bat file for execution, and parameters in txt.
 
 Basically just set up interactions using the Jumpseller API https://jumpseller.com/support/api/ to make life easier for my parents.
 They run a family owned Brewpub/Brewery in Talagante, close to Santiago de Chile, and use the Jumpseller platform as an eStore.
