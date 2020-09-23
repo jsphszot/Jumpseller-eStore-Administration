@@ -9,11 +9,11 @@ store https://szot-brewpub.jumpseller.com/ ig https://www.instagram.com/cervezas
 
 It's a good platform but is missing some native functionality, though easily built hanging off of their API. 
 
-SZOTeStoreAdmin.bat is used to change directory and run the powershell script AdminGUI.ps1. 
-AdminGUI.ps1 opens up a UI while hiding the powershell console: <br>
-"Get Orders" button gets all new orders, overwriting NewOrders.html with formatted info.<br>
-"Change Status" button updates orders in range to "Delivered".<br>
-Status bar gives info while running processes and when concluded.
+SZOTeStoreAdmin.bat is used to change directory and run the powershell script AdminGUI.ps1 while hiding the console.<br> 
+AdminGUI.ps1 opens up a UI:<br>
+  "Get Orders" button gets all new orders, overwriting NewOrders.html with formatted info.<br>
+  "Change Status" button updates orders in range to "Delivered".<br>
+  Status bar gives info while running processes and when concluded.
 
 <img src="SZOT-jumpsellerAPI.png" width="70%" height="70%">
 
