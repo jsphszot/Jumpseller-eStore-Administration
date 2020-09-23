@@ -2,7 +2,7 @@
 
 Powershell script, bat file for execution, and parameters in txt.
 
-![Screenshot](SZOT-jumpsellerAPI.png)
+<img src="SZOT-jumpsellerAPI.png" width="100" height="100">
 
 Basically just set up interactions using the Jumpseller API https://jumpseller.com/support/api/ to make life easier for my parents.
 They run a family owned Brewpub/Brewery in Talagante, close to Santiago de Chile, and use the Jumpseller platform as an eStore.
