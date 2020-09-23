@@ -11,12 +11,11 @@ It's a good platform but is missing some native functionality, though easily bui
 
 SZOTeStoreAdmin.bat is used to change directory and run the powershell script AdminGUI.ps1. 
 AdminGUI.ps1 opens up a UI while hiding the powershell console:
-  Get Orders button gets all new orders
-  Change Status button updates orders in range to "Delivered"
+  "Get Orders" button gets all new orders, overwriting NewOrders.html with formatted info.
+  "Change Status" button updates orders in range to "Delivered".
   Status bar gives info while running processes and when concluded.
 
 <img src="SZOT-jumpsellerAPI.png" width="70%" height="70%">
-
 
 All resources are in the SZOT JumpSeller folder:
 
